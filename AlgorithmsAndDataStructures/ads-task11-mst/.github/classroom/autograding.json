@@ -1,0 +1,134 @@
+{
+  "tests": [
+    {
+      "name": "Test 1",
+      "setup": "unzip -q tests/tests.zip -d tests",
+      "run": "timeout 0.1 ./mst tests/graph01.txt",
+      "input": "",
+      "output": "14",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 2",
+      "setup": "",
+      "run": "timeout 0.2 ./mst tests/graph02.txt",
+      "input": "",
+      "output": "181",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 3",
+      "setup": "",
+      "run": "timeout 0.2 ./mst tests/graph03.txt",
+      "input": "",
+      "output": "37",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 4",
+      "setup": "",
+      "run": "timeout 0.2 ./mst tests/graph04.txt",
+      "input": "",
+      "output": "380",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 5",
+      "setup": "",
+      "run": "timeout 0.2 ./mst tests/graph05.txt",
+      "input": "",
+      "output": "114",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 6",
+      "setup": "",
+      "run": "timeout 0.2 ./mst tests/graph06.txt",
+      "input": "",
+      "output": "1046336",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 7",
+      "setup": "",
+      "run": "timeout 0.2 ./mst tests/graph07.txt",
+      "input": "",
+      "output": "-3612829",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 8",
+      "setup": "",
+      "run": "timeout 0.2 ./mst tests/graph08.txt",
+      "input": "",
+      "output": "2077252",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 9",
+      "setup": "",
+      "run": "timeout 0.5 ./mst tests/graph09.txt",
+      "input": "",
+      "output": "6523359",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 10",
+      "setup": "",
+      "run": "timeout 0.5 ./mst tests/graph10.txt",
+      "input": "",
+      "output": "44749",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 11",
+      "setup": "",
+      "run": "timeout 0.5 ./mst tests/graph11.txt",
+      "input": "",
+      "output": "1728973",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 12",
+      "setup": "",
+      "run": "timeout 0.5 ./mst tests/graph12.txt",
+      "input": "",
+      "output": "498502",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 13",
+      "setup": "",
+      "run": "timeout 1 ./mst tests/graph13.txt",
+      "input": "",
+      "output": "161600",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}

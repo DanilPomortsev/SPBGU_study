@@ -1,0 +1,68 @@
+{
+  "tests": [
+    {
+      "name": "Test 1",
+      "setup": "",
+      "run": "timeout 2 ./battle tests/input1.txt",
+      "input": "",
+      "output": "draw",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },{
+      "name": "Test 2",
+      "setup": "",
+      "run": "timeout 2 ./battle tests/input2.txt",
+      "input": "",
+      "output": "first",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },{
+      "name": "Test 3",
+      "setup": "",
+      "run": "timeout 2 ./battle tests/input3.txt",
+      "input": "",
+      "output": "second",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },{
+      "name": "Test 4",
+      "setup": "",
+      "run": "timeout 2 ./battle tests/input4.txt",
+      "input": "",
+      "output": "first",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },{
+      "name": "Test 5",
+      "setup": "",
+      "run": "timeout 2 ./battle tests/input5.txt",
+      "input": "",
+      "output": "second",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },{
+      "name": "Test 6",
+      "setup": "",
+      "run": "timeout 2 ./battle tests/input6.txt",
+      "input": "",
+      "output": "unknown",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },{
+      "name": "Test 7",
+      "setup": "",
+      "run": "timeout 2 ./battle tests/input7.txt",
+      "input": "",
+      "output": "unknown",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}

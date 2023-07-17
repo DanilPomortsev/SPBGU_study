@@ -1,0 +1,67 @@
+{
+  "tests": [
+    {
+      "name": "Test 1",
+      "setup": "",
+      "run": "./median tests/input1.txt",
+      "input": "",
+      "output": "1 2 3",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },{
+      "name": "Test 2",
+      "setup": "",
+      "run": "./median tests/input2.txt",
+      "input": "",
+      "output": "3 2 1",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },{
+      "name": "Test 3",
+      "setup": "",
+      "run": "./median tests/input3.txt",
+      "input": "",
+      "output": "1 5 9",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },{
+      "name": "Test 4",
+      "setup": "",
+      "run": "./median tests/input4.txt",
+      "input": "",
+      "output": "5 1 2",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },{
+      "name": "Test 5",
+      "setup": "",
+      "run": "./median tests/input5.txt",
+      "input": "",
+      "output": "1 5 4",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },{
+      "name": "Test 6",
+      "setup": "",
+      "run": "./median tests/input6.txt",
+      "input": "",
+      "output": "56 5910 2350",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },{
+      "name": "Test 7",
+      "setup": "",
+      "run": "./median tests/input7.txt",
+      "input": "",
+      "output": "494 49845 56591",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    }  ]
+}

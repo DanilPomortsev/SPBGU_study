@@ -1,0 +1,254 @@
+{
+  "tests": [
+    {
+      "name": "Test 1",
+      "setup": "",
+      "run": "timeout 5 ./isbtree tests/dump1.txt",
+      "input": "",
+      "output": "yes",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 2",
+      "setup": "",
+      "run": "timeout 5 ./isbtree tests/dump2.txt",
+      "input": "",
+      "output": "yes",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 3",
+      "setup": "",
+      "run": "timeout 5 ./isbtree tests/dump3.txt",
+      "input": "",
+      "output": "yes",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 4",
+      "setup": "",
+      "run": "timeout 5 ./isbtree tests/dump4.txt",
+      "input": "",
+      "output": "no",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 5",
+      "setup": "",
+      "run": "timeout 5 ./isbtree tests/dump5.txt",
+      "input": "",
+      "output": "no",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 6",
+      "setup": "",
+      "run": "timeout 5 ./isbtree tests/dump6.txt",
+      "input": "",
+      "output": "no",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 7",
+      "setup": "",
+      "run": "timeout 5 ./isbtree tests/dump7.txt",
+      "input": "",
+      "output": "no",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 8",
+      "setup": "",
+      "run": "timeout 5 ./isbtree tests/dump8.txt",
+      "input": "",
+      "output": "no",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 9",
+      "setup": "",
+      "run": "timeout 5 ./isbtree tests/dump9.txt",
+      "input": "",
+      "output": "no",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 10",
+      "setup": "",
+      "run": "timeout 5 ./isbtree tests/dump10.txt",
+      "input": "",
+      "output": "no",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 11",
+      "setup": "",
+      "run": "timeout 5 ./isbtree tests/dump11.txt",
+      "input": "",
+      "output": "no",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 12",
+      "setup": "",
+      "run": "timeout 5 ./isbtree tests/dump12.txt",
+      "input": "",
+      "output": "no",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 13",
+      "setup": "",
+      "run": "timeout 5 ./isbtree tests/dump13.txt",
+      "input": "",
+      "output": "yes",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 14",
+      "setup": "",
+      "run": "timeout 5 ./isbtree tests/dump14.txt",
+      "input": "",
+      "output": "yes",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 15",
+      "setup": "",
+      "run": "timeout 5 ./isbtree tests/dump15.txt",
+      "input": "",
+      "output": "yes",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 16",
+      "setup": "",
+      "run": "timeout 5 ./isbtree tests/dump16.txt",
+      "input": "",
+      "output": "yes",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 17",
+      "setup": "",
+      "run": "timeout 5 ./isbtree tests/dump17.txt",
+      "input": "",
+      "output": "yes",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 18",
+      "setup": "",
+      "run": "timeout 5 ./isbtree tests/dump18.txt",
+      "input": "",
+      "output": "yes",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 19",
+      "setup": "",
+      "run": "timeout 5 ./isbtree tests/dump19.txt",
+      "input": "",
+      "output": "yes",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 20",
+      "setup": "",
+      "run": "timeout 5 ./isbtree tests/dump20.txt",
+      "input": "",
+      "output": "no",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 21",
+      "setup": "",
+      "run": "timeout 5 ./isbtree tests/dump21.txt",
+      "input": "",
+      "output": "no",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 22",
+      "setup": "",
+      "run": "timeout 5 ./isbtree tests/dump22.txt",
+      "input": "",
+      "output": "no",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 23",
+      "setup": "",
+      "run": "timeout 5 ./isbtree tests/dump23.txt",
+      "input": "",
+      "output": "no",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 24",
+      "setup": "",
+      "run": "timeout 5 ./isbtree tests/dump24.txt",
+      "input": "",
+      "output": "no",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 25",
+      "setup": "",
+      "run": "timeout 5 ./isbtree tests/dump25.txt",
+      "input": "",
+      "output": "no",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}

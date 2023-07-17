@@ -1,0 +1,74 @@
+{
+  "tests": [
+    {
+      "name": "Test 1 (n=4, k=2)",
+      "setup": "",
+      "run": "./partition",
+      "input": "4 2",
+      "output": "2",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 2 (n=1, k=1)",
+      "setup": "",
+      "run": "./partition",
+      "input": "1 1",
+      "output": "1",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 3 (n=10, k=4)",
+      "setup": "",
+      "run": "./partition",
+      "input": "10 4",
+      "output": "9",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 4 (n=100, k=10)",
+      "setup": "",
+      "run": "timeout 1 ./partition || ( rc=$?;  if [ ${rc} -eq 124 ]; then echo \"Timeout\"; fi ; exit ${rc} ) ",
+      "input": "100 10",
+      "output": "2977866",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 5 (n=150, k=10)",
+      "setup": "",
+      "run": "timeout 3 ./partition || ( rc=$?;  if [ ${rc} -eq 124 ]; then echo \"Timeout\"; fi ; exit ${rc} ) ",
+      "input": "150 10",
+      "output": "75611815",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 6 (n=150, k=20)",
+      "setup": "",
+      "run": "timeout 3 ./partition || ( rc=$?;  if [ ${rc} -eq 124 ]; then echo \"Timeout\"; fi ; exit ${rc} ) ",
+      "input": "150 20",
+      "output": "1713879071",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 7 (n=500, k=100)",
+      "setup": "",
+      "run": "timeout 3 ./partition || ( rc=$?;  if [ ${rc} -eq 124 ]; then echo \"Timeout\"; fi ; exit ${rc} ) ",
+      "input": "500 100",
+      "output": "6604049133121382808",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}

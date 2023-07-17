@@ -1,0 +1,114 @@
+{
+  "tests": [
+    {
+      "name": "Test 1",
+      "setup": "make",
+      "run": "./tm tests/2-MT.txt tests/2-input.txt output && cmp output tests/2-output.txt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 2",
+      "setup": "",
+      "run": "./tm tests/3-MT.txt tests/3-input.txt output && cmp -s output tests/3-output.txt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 3",
+      "setup": "",
+      "run": "./tm tests/4-MT.txt tests/4-input.txt output && cmp -s output tests/4-output.txt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 4",
+      "setup": "",
+      "run": "./tm tests/5-MT.txt tests/5-input.txt output && cmp -s output tests/5-output.txt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 5",
+      "setup": "",
+      "run": "./tm tests/6-MT.txt tests/6-input.txt output && cmp -s output tests/6-output.txt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 6",
+      "setup": "",
+      "run": "./tm tests/7-MT.txt tests/7-input.txt output && cmp -s output tests/7-output.txt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 7",
+      "setup": "",
+      "run": "./tm tests/8-MT.txt tests/8-input.txt output && cmp -s output tests/8-output.txt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 8",
+      "setup": "",
+      "run": "./tm tests/9-MT.txt tests/9-input.txt output && cmp -s output tests/9-output.txt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 9",
+      "setup": "",
+      "run": "./tm tests/10-MT.txt tests/10-input.txt output && cmp -s output tests/10-output.txt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 10",
+      "setup": "",
+      "run": "./tm tests/11-MT.txt tests/11-input.txt output && cmp -s output tests/11-output.txt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 11",
+      "setup": "",
+      "run": "./tm tests/12-MT.txt tests/12-input.txt output && cmp -s output tests/12-output.txt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}

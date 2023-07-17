@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "Test 1",
+      "setup": "make",
+      "run": "./boolcalc -isfull tests/funs01.in output.txt && cmp -s output.txt tests/funs01.out",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 2",
+      "setup": "",
+      "run": "./boolcalc -isfull tests/funs02.in output.txt && cmp -s output.txt tests/funs02.out",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 3",
+      "setup": "",
+      "run": "./boolcalc -isfull tests/funs03.in output.txt && cmp -s output.txt tests/funs03.out",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 4",
+      "setup": "",
+      "run": "./boolcalc -isfull tests/funs04.in output.txt && cmp -s output.txt tests/funs04.out",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 5",
+      "setup": "",
+      "run": "./boolcalc -isfull tests/funs05.in output.txt && cmp -s output.txt tests/funs05.out",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 6",
+      "setup": "",
+      "run": "./boolcalc -isfull tests/funs06.in output.txt && cmp -s output.txt tests/funs06.out",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 7",
+      "setup": "",
+      "run": "./boolcalc -isfull tests/funs07.in output.txt && cmp -s output.txt tests/funs07.out",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 8",
+      "setup": "",
+      "run": "./boolcalc -isfull tests/funs08.in output.txt && cmp -s output.txt tests/funs08.out",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 9",
+      "setup": "",
+      "run": "./boolcalc -isfull tests/funs09.in output.txt && cmp -s output.txt tests/funs09.out",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 10",
+      "setup": "",
+      "run": "./boolcalc -isfull tests/funs10.in output.txt && cmp -s output.txt tests/funs10.out",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}

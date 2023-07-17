@@ -1,0 +1,204 @@
+{
+  "tests": [
+    {
+      "name": "Test 1",
+      "setup": "make",
+      "run": "./compress -lzw tests/number.txt output1 && ./compress -d output1 output2 && cmp -s output2 tests/number.txt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 2 (random)",
+      "setup": "",
+      "run": "./compress -lzw tests/random.txt output1 && ./compress -d output1 output2 && cmp -s output2 tests/random.txt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 3 (1 byte)",
+      "setup": "",
+      "run": "./compress -lzw tests/a.txt output1 && ./compress -d output1 output2 && cmp -s output2 tests/a.txt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 4 (aaa)",
+      "setup": "",
+      "run": "./compress -lzw tests/aaa.txt output1 && ./compress -d output1 output2 && cmp -s output2 tests/aaa.txt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 5 (pi)",
+      "setup": "",
+      "run": "./compress -lzw tests/pi.txt  output1 && ./compress -d output1 output2 && cmp -s output2 tests/pi.txt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 6 (text)",
+      "setup": "",
+      "run": "./compress -lzw tests/canterbury/alice29.txt output1 && ./compress -d output1 output2 && cmp -s output2 tests/canterbury/alice29.txt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 7 (html)",
+      "setup": "",
+      "run": "./compress -lzw tests/canterbury/cp.html output1 && ./compress -d output1 output2 && cmp -s output2 tests/canterbury/cp.html",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 8 (binary)",
+      "setup": "",
+      "run": "./compress -lzw tests/canterbury/kennedy.xls output1 && ./compress -d output1 output2 && cmp -s output2 tests/canterbury/kennedy.xls",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 9 (binary 2)",
+      "setup": "",
+      "run": "./compress -lzw tests/canterbury/ptt5 output1 && ./compress -d output1 output2 && cmp -s output2 tests/canterbury/ptt5",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 10 (binary 3)",
+      "setup": "",
+      "run": "./compress -lzw tests/canterbury/sum output1 && ./compress -d output1 output2 && cmp -s output2 tests/canterbury/sum",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 11 (huffman)",
+      "setup": "",
+      "run": "./compress -huffman tests/number.txt output1 && ./compress -d output1 output2 && cmp -s output2 tests/number.txt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 12",
+      "setup": "",
+      "run": "./compress -huffman tests/random.txt output1 && ./compress -d output1 output2 && cmp -s output2 tests/random.txt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 13",
+      "setup": "",
+      "run": "./compress -huffman tests/a.txt output1 && ./compress -d output1 output2 && cmp -s output2 tests/a.txt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 14",
+      "setup": "",
+      "run": "./compress -huffman tests/aaa.txt output1 && ./compress -d output1 output2 && cmp -s output2 tests/aaa.txt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 15",
+      "setup": "",
+      "run": "./compress -huffman tests/pi.txt  output1 && ./compress -d output1 output2 && cmp -s output2 tests/pi.txt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 16",
+      "setup": "",
+      "run": "./compress -huffman tests/canterbury/alice29.txt output1 && ./compress -d output1 output2 && cmp -s output2 tests/canterbury/alice29.txt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 17",
+      "setup": "",
+      "run": "./compress -huffman tests/canterbury/cp.html output1 && ./compress -d output1 output2 && cmp -s output2 tests/canterbury/cp.html",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 18",
+      "setup": "",
+      "run": "./compress -huffman tests/canterbury/kennedy.xls output1 && ./compress -d output1 output2 && cmp -s output2 tests/canterbury/kennedy.xls",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 19",
+      "setup": "",
+      "run": "./compress -huffman tests/canterbury/ptt5 output1 && ./compress -d output1 output2 && cmp -s output2 tests/canterbury/ptt5",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 20",
+      "setup": "",
+      "run": "./compress -huffman tests/canterbury/sum output1 && ./compress -d output1 output2 && cmp -s output2 tests/canterbury/sum",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}
